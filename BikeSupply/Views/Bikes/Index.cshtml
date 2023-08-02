@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+
+@using BikeSupply.Models;
+
+<h1>Bikes</h1>
+
+@if (@Model.Count == 0)
+{
+  <h3>No Bikes have been added yet!</h3>
+} 
+else
+{
+  <ul>
+    @foreach (Bike bike in Model)
+    {
+      <li>@Html.ActionLink($"{bike.BikeName}", "Details", new { id = bike.BikeId })</li>
+    }
+  </ul>
+}
+
+<p>@Html.ActionLink("Add a new Bike", "Create")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>

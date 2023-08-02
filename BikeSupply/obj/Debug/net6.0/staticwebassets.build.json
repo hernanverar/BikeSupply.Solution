@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "rDmRG2wuzubj96BwIr2O47VMa9zTtMEBuEDBYMmzVPM=",
+  "Source": "BikeSupply",
+  "BasePath": "_content/BikeSupply",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BikeSupply/wwwroot",
+      "Source": "BikeSupply",
+      "ContentRoot": "/Users/hernanverar/Desktop/BikeSupply.Solution/BikeSupply/wwwroot/",
+      "BasePath": "_content/BikeSupply",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/hernanverar/Desktop/BikeSupply.Solution/BikeSupply/wwwroot/css/styles.css",
+      "SourceId": "BikeSupply",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hernanverar/Desktop/BikeSupply.Solution/BikeSupply/wwwroot/",
+      "BasePath": "_content/BikeSupply",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}
